@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Adopción</title>
+    <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="css/styleform.css">
+</head>
+
+<body>
+
+    <h1>Formulario de Adopción</h1>
+    
+    <div class="container">
+        <img src="portada.jpeg" alt="Imagen de portada" >
+        <div class="text-overlay">Mascotas MDP</div>
+        
+    </div>
+
+    <form action="#" method="post">
+        <label for="nombre">Nombre y Apellidos</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="celular">Número de Celular </label>
+        <input type="text" id="celular" name="celular" required>
+
+        <label for="direccion">Dirección </label>
+        <input type="text" id="direccion" name="direccion" required>
+
+        <label for="barrio">Barrio y Localidad </label>
+        <input type="text" id="barrio" name="barrio" required>
+
+        <label for="ciudad">Ciudad y País </label>
+        <input type="text" id="ciudad" name="ciudad" required>
+
+        <label for="composicion">Composición y Número de Personas que Vivirá con el Animal *</label>
+        <textarea id="composicion" name="composicion" required></textarea>
+
+        <label for="motivo">¿Por qué quiere adoptar un animal de compañía? *</label>
+        <textarea id="motivo" name="motivo" required></textarea>
+
+        <label for="vivienda">¿Es vivienda propia o arrendada? </label>
+        <select id="vivienda" name="vivienda" required>
+            <option value="propia">Propia</option>
+            <option value="arrendada">Arrendada</option>
+        </select>
+
+        <label for="reglamento">¿El reglamento de propiedad permite animales? </label>
+        <select id="reglamento" name="reglamento" required>
+            <option value="si">Sí</option>
+            <option value="no">No</option>
+        </select>
+
+        <label for="animal">¿Qué tipo de animal y características busca? </label>
+        <textarea id="animal" name="animal" required></textarea>
+
+        <label for="otroAnimal">¿Estaría dispuesto a adoptar otro si no es seleccionado? </label>
+        <select id="otroAnimal" name="otroAnimal" required>
+            <option value="si">Sí</option>
+            <option value="no">No</option>
+        </select>
+
+        <label for="compromiso">¿Puede adquirir el compromiso para 10 o 15 años? </label>
+        <select id="compromiso" name="compromiso" required>
+            <option value="si">Sí</option>
+            <option value="no">No</option>
+        </select>
+
+        <label for="nombreMascota">Ingrese el nombre de la mascota que quiere adoptar </label>
+        <input type="text" id="nombreMascota" name="nombreMascota" required>
+
+        <button type="submit">Enviar Solicitud</button>
+    </form>
+    <h2><a href="index.htm">Volver al Inicio</a></h2>
+<footer>
+        <div class="footer-content">
+            <img src="logo.avif " alt="Logo del Footer">
+            <div class="contact-info">
+                <p>Email: <a href="mascotasmdp@gmail.com">miemail@example.com</a></p>
+                <p>Teléfono: <a href="tel:+123456789">+123 456 789</a></p>
+            </div>
+            <div class="copyright">
+                &copy; 2024 Mascotas MDP. Todos los derechos reservados.
+            </div>
+        </div>
+</footer>
+</body>
+
+</html>
